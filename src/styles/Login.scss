@@ -1,0 +1,15 @@
+.login__container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  .login__button {
+    background-color: var(--color-principal);
+    color: var(--color-fourth);
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+  }
+}

@@ -1,0 +1,39 @@
+.nav__container {
+  max-width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+
+  .logo {
+    font-size: 1.3em;
+  }
+
+  .nav__span {
+    color: var(--color-principal);
+    font-weight: bold;
+  }
+
+  .nav__container__links {
+    border-bottom: .2rem solid var(--color-principal);
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav__container {
+    .logo {
+      font-size: 2em;
+    }
+
+    .nav__container__links {
+      gap: 3rem;
+
+      .nav__link {
+        font-size: 1.2em;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.form__container {
+  background: var(--color-third);
+  padding: 1rem;
+  border-radius: .3rem;
+
+  .form__label {
+    font-size: 1.1em;
+    margin-bottom: .3rem;
+  }
+
+  .form__input {
+    margin-bottom: 1rem;
+    background: var(--color-fourth);
+    border-radius: inherit;
+    padding: .5rem;
+  }
+
+  .form__button {
+    margin: 0 auto;
+    background-color: var(--color-principal);
+    color: var(--color-fourth);
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+  }
+}
