@@ -1,6 +1,6 @@
 import { Home } from "@pages/Home";
 import { Login } from "@pages/Login";
-import { Public } from "@pages/Public";
+import { Post } from "@pages/Post";
 import { ProtectedRoute } from "./ProtectedRoute";
 import { Routes, Route } from "react-router";
 import { useSelector } from "react-redux";
@@ -24,7 +24,7 @@ export const App = () => {
           path="/add-post"
           element={
             <ProtectedRoute currentUser={currentUser}>
-              <Public currentUser={currentUser} />
+              <Post currentUser={currentUser} />
             </ProtectedRoute>
           }
         />

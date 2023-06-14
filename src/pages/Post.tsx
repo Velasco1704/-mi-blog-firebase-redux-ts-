@@ -3,11 +3,11 @@ import { useNavigate } from "react-router-dom";
 import { Nav } from "@components/Nav";
 import { db } from "@config/index";
 import { addDoc, collection } from "firebase/firestore";
-import { type PropsPublic } from "@interface/PropsPublic";
+import { type PropsPost } from "@interface/PropsPost";
 import { type PostFormTypes } from "@interface/PostFormTypes";
 import "@styles/Public.scss";
 
-export const Public: React.FC<PropsPublic> = ({ currentUser }) => {
+export const Post: React.FC<PropsPost> = ({ currentUser }) => {
   const navigate = useNavigate();
   const [file, setFile] = useState<string | File>("");
   const [loadingImage, setLoadingImage] = useState<number | null>(null);

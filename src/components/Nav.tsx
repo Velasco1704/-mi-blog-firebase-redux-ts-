@@ -16,7 +16,7 @@ export const Nav = () => {
           Home
         </NavLink>
         <NavLink className="nav__link" to="/add-post">
-          Public
+          Post
         </NavLink>
         <NavLink
           onClick={() => dispatch(setLogout())}

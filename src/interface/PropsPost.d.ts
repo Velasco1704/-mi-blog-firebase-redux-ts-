@@ -1,5 +1,5 @@
 import { User } from "firebase/auth";
 
-export interface PropsPublic {
+export interface PropsPost {
   currentUser: User | null;
 }
